@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to  right, #ff2f78, #24baec);
+}
+
+.container {
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftNav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar p{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.navbar i{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.inputarea {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inputarea input {
+    border: none;
+    border-radius: 4px 0 0 4px;
+    padding: 4px;
+}
+
+           
+.inputarea button {
+    cursor: pointer;
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+
+/* body style */
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 400px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.secDiv {
+    display: flex;
+    align-items: center;
+}
+
+.deleteButton {
+    cursor: pointer;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    color: #ff2f78;
+}
+
+
